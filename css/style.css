@@ -1,55 +1,48 @@
-.menu {
+.nav {
     display: flex;
     justify-content: space-between;
-     
 }
 
-.menu__img{
+.nav__img{
     margin-top: 24px;
     margin-left: 49px;
 }
-.menu__nav {
+
+.nav__menu {
     margin-top: 40px;
-    font-family: Montserrat;
-    color: #000000;
+}
+.nav__end {
+    margin-top: 40px;
+    margin-right: 50px;  
 }
 
-.menu__end {
-    margin-top: 40px;
-    margin-right: 50px;
+.nav__menu__model {
     font-family: Montserrat;
+    font-size: 15px;
+    text-decoration: none;
     color: #000000;
+    padding: 22px;
+
 }
 
-.menu__items__red {
-    border-bottom: 3px solid black;
+.nav__menu__model__red {
+    border-bottom: 2px solid black;
     border-color: #E51937;
     border-radius: 4px;
     color: #E51937;
     text-decoration: none;
 }
 
-.menu__items {
-    font-family: Montserrat;
+.nav__end__log {
+font-family: Montserrat;
     font-size: 15px;
     text-decoration: none;
     color: #000000;
-    padding: 22px;
 }
 
-.menu__items--end {
-    font-family: Montserrat;
-    font-size: 15px;
-    text-decoration: none;
-    color: #000000;
-}
 /*Навигационное меню*/
 
-.main{
-    
-}
-
-.section__head {
+.info__head {
     display: block;
     text-align: center;
     font-family: Montserrat;
@@ -58,7 +51,7 @@
     margin-bottom: 0;
 }
 
-.section__parag {
+.info__paragraf {
     display: block;
     font-family: Montserrat;
     text-align: center;
@@ -66,47 +59,88 @@
     padding-top: 9;
 }
 
-.section__img {
+.info__img {
     display: inline-block;
     margin-left: 17%;
     margin-right: 15%;
 }
+/* Загаловок параграфф и машина*/
 
-.section__info {
-    display: inline-block;
+.info__parameter {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 28%;
+    padding-right: 28%;
+    height: 40px;
+}
+
+.info__argument {
+    display: flex;
+    padding-right: 10%;
+}
+
+.info__argument__number{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 25px;
+}
+    
+.info__argument__measure {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 20px;
+}
+
+.info__argument__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+    display: flex;   
+}
+
+.info__botton {
+    position: absolute;
+    padding-left: 26%;
+}
+
+.info__argument__test {
+    padding-right: 50px;
+    padding-left: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-transform: uppercase;
 }
 
-.section__info__size {
-    padding-left: 15%;
-    font-weight: normal;
-    font-size: 12px;
+.info__argument__button {
+    border: 2px solid red;
+    width: 160px;
+    height: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E51937;
 }
 
-.section__info__text{
-    padding-left: 15%;
-    font-weight: normal;
-    font-size: 12px;
+.info__botton_img{
+    position: absolute;
+    bottom: 1ch;
+    left: 450px;
 }
 
-.section__spidom {
-    width: 46px;
-    height: 35px;
-    float: left;
-    margin: 10px 5px 0 0;
-}
+/*первая секция*/
 
-.section__time {
-    width: 30px;
-    height: 50px;
-    float: left;
-    margin: 10px 0 0 0;
-}
-.section__test{
-    width: 22px;
-    height: 22px;
-    float: left;
-    margin: 5px -30px 0 0;
-}
+.
