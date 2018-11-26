@@ -1,4 +1,12 @@
 
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -167,14 +175,11 @@ font-family: Montserrat;
 
 .section__option {
     background-color: red;
-    width: 30%; 
-    flex-direction: column;
-    
+    width: 30%;   
 }
 
 .option__box { 
     padding-top: 50px;
-    padding-bottom: 70px;
     margin-left: 155px;
     margin-right: 155px;
     
@@ -284,11 +289,101 @@ font-family: Montserrat;
 
 
 .def {
+    display: flex; 
+}
 
+.def__inform{
+    display: inline-block;
+    background-color: red;
+    width: 30%;  
+ 
+}
+.def__header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+.def__par {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 15px;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+.def__rating {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .defens{
-
+    display: inline-block;
+    width: 70%;  
 }
 
 
+.defens__img {
+    position: absolute;
+    left: 25%;
+}
+
+.def__secure {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 50px;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.def__secure__mini {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 25px;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.def__box {
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    left: 20%;
+}
+
+.def__box_star{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+def__about
+def__button
