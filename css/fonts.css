@@ -1,25 +1,26 @@
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-weight: 400;
-    src: url("../fonts/montserrat-regular-webfont.woff") format('woff'),
-        url("../fonts/Montserrat-Regular.ttf") format('truetype'),
-         url("../fonts/montserrat-regular-webfont.woff2") format('woff2');       
+    src: url("../fonts/montserrat-regular-webfont.woff"),
+        url("../fonts/Montserrat-Regular.ttf"),
+         url("../fonts/montserrat-regular-webfont.woff2");       
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Medium';
     font-style: normal;
     font-weight: 500;
-    src: url("../fonts/montserrat-medium-webfont.woff") format('woff'),
-        url("../fonts/Montserrat-Medium.ttf") format('truetype'),
-         url("../fonts/montserrat-medium-webfont.woff2") format('woff2');  
+    src: url("../fonts/montserrat-medium-webfont.woff"),
+        url("../fonts/Montserrat-Medium.ttf"),
+         url("../fonts/montserrat-medium-webfont.woff2");  
 }
 /* montserrat-600 - cyrillic */
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-SemiBold';
     font-style: normal;
     font-weight: 600;
-    src: url("../fonts/montserrat-semibold-webfont.woff") format('woff'),
-        url("../fonts/Montserrat-SemiBold.ttf") format('truetype'),
-         url("../fonts/montserrat-semibold-webfont.woff2") format('woff2');   /* Legacy iOS */
+    src: url("../fonts/montserrat-semibold-webfont.woff"),
+        url("../fonts/Montserrat-SemiBold.ttf"),
+         url("../fonts/montserrat-semibold-webfont.woff2");   /* Legacy iOS */
 }
+

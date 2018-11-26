@@ -1,3 +1,4 @@
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -143,4 +144,151 @@ font-family: Montserrat;
 
 /*первая секция*/
 
-.
+.section {
+    display: flex;
+    padding-top: 90px;
+}
+
+.section__head {
+    position: absolute;
+    display: inline;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 70px;
+    color: red;
+    padding-left: 70px;
+}
+
+.section__img{
+    width: 70%;
+}
+
+.section__option {
+    background-color: red;
+    width: 30%; 
+    flex-direction: column;
+    
+}
+
+.option__box { 
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-left: 155px;
+    margin-right: 155px;
+    
+    
+}
+
+.option__button{
+    padding-bottom: 70px;
+    margin-right: 50px;
+}
+.option__box__paragr {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+    color: white;  
+    
+}
+.option__box__description {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 15px;
+    color: white;
+}
+.option__box__numbers {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 35px;
+    color: white;
+    padding-left: 60px;
+
+    
+    
+}
+.option__box__bigtext {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+
+}
+.option__box__bigtext-van{
+    display: flex;
+    padding-left: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 20px;
+    color: white;
+}
+.option__box__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+    color: white;
+    padding-left: 65px;
+    margin-bottom: 20px;
+    display: flex   ;
+}
+
+.option__box__img{
+    position: absolute;
+    margin-top: 10px;
+}
+.option__button {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center
+}
+.option__button_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.option__button__btn {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid white;
+    width: 160px;
+    height: 40px;
+    margin-left: 70px;
+    
+}
+
+/*2 секция*/
+
+
+.def {
+
+}
+
+.defens{
+
+}
+
+
