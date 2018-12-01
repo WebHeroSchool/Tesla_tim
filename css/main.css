@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px)  {
+    
+    .info__speed {
+		margin: auto;
+	}
+
+
+    .info__road {
+		margin: auto;
+	}
+    
+    .nav__img{
+        width: 138px;
+        height: 42px;
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+    .Info__img{
+        width: 357px;
+        height: 166px;
+    }
+    .nav__menu{
+        display:none;
+    }
+
+    .nav__end__log{
+        display:none;
+    }
+    .nav__end{
+        margin: 0;
+    }
+
+    .nav_burger {
+        margin-top: 19px;
+        margin-right: 21px;
+    }
+
+    .info{
+        margin-top: 10px;
+    }
+    .info__title{
+        Font-Size: 50px;
+    }
+
+    .info__subtitle{
+        Font-Size: 10px;
+    }
+
+    .info_footer{
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .argument__number{
+        font-size: 27px;
+    }
+
+    .argument__measure{
+        font-size: 15px;
+    }
+
+    .argument__text{
+        font-size: 10px;
+    }
+
+    .argument__test{
+        margin-top: 43px;
+        font-size: 13px;
+        color: #E51937;
+    }
+
+    .argument__button{
+        margin-top: 43px;
+        font-size: 13px;
+    }
+    
+    
+    .argument__test:before {
+        background-image: url(../img/steering-wheel_red.png);
+    }
+
+    
+    .info__anhor{
+        padding-top: 34px;  
+    }
+}
