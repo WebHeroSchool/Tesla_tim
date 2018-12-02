@@ -8,11 +8,17 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    
 }
 
-.nav__img{
+.nav__logo{
     margin-top: 24px;
     margin-left: 49px;
+}
+
+.logo__tesla{
+    width: 100%;
+    height: auto;
 }
 
 .nav__menu {
