@@ -1,7 +1,8 @@
 
 body {
-    font-family: "Montserrat";
-    margin: 0;
+	margin: auto;
+	max-width: 1440px;
+	font-family: Montserrat;
 }
 
 .nav {
@@ -70,9 +71,15 @@ border-bottom: 2px solid red;
 
 .info {
     text-align: center;  
-    margin-top: 57px;    
+    margin-top: 57px; 
   }
 
+.info__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
 
 .info__title{
     font-family: Montserrat;
@@ -84,6 +91,7 @@ border-bottom: 2px solid red;
     font-family: Montserrat;
     font-size: 15px;
     margin: 0;
+    margin-bottom: auto;
 }
  
   .info_footer{
@@ -93,8 +101,7 @@ border-bottom: 2px solid red;
     flex-wrap: wrap;
   }
 
-  .intro__speed {
-      
+  .info__speed {
     margin-right: 82px;
 	width: 154px;
 }
@@ -185,7 +192,7 @@ border-bottom: 2px solid red;
 
 
 
-/*первая секция
+/*первая секция*/
 
 .section {
     display: flex;
@@ -241,21 +248,16 @@ border-bottom: 2px solid red;
     color: white;
 }
 .option__box__numbers {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    font-size: 35px;
+	font-size: 35px;
+	line-height: 43px; 
     color: white;
     padding-left: 60px;
 
 }
 .option__box__bigtext {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     font-size: 20px;
+    line-height: 24px; 
     color: white;
     padding-left: 5px;
 
@@ -271,11 +273,8 @@ border-bottom: 2px solid red;
     color: white;
 }
 .option__box__text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
     font-size: 12px;
+	line-height: 15px;
     color: white;
     padding-left: 65px;
     margin-bottom: 20px;

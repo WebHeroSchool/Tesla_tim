@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 768px)  {
     
     .info__speed {
@@ -15,10 +16,7 @@
         margin-left: 2px;
         margin-top: 5px;
     }
-    .Info__img{
-        width: 357px;
-        height: 166px;
-    }
+  
     .nav__menu{
         display:none;
     }
@@ -36,15 +34,19 @@
     }
 
     .info{
-        margin-top: 10px;
+        margin-top: 10px; 
     }
-    .info__title{
-        Font-Size: 50px;
-    }
+    
+    .info__title {
+		font-size: 50px;
+		line-height: 61px;
+	}
 
-    .info__subtitle{
-        Font-Size: 10px;
-    }
+	.info__subtitle {
+		font-size: 10px;
+		line-height: 12px;
+		
+	}
 
     .info_footer{
       flex-wrap: wrap;
@@ -84,3 +86,4 @@
         padding-top: 34px;  
     }
 }
+
