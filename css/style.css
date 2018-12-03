@@ -1,12 +1,24 @@
 
+body {
+	margin: auto;
+	max-width: 1440px;
+	font-family: Montserrat;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
+    
 }
 
-.nav__img{
+.nav__logo{
     margin-top: 24px;
     margin-left: 49px;
+}
+
+.logo__tesla{
+    width: 100%;
+    height: auto;
 }
 
 .nav__menu {
@@ -18,111 +30,145 @@
 }
 
 .nav__menu__model {
-    font-family: Montserrat;
     font-size: 15px;
     text-decoration: none;
     color: #000000;
-    padding: 22px;
+    padding-left: 22px;
 
 }
 
 .nav__menu__model__red {
     border-bottom: 2px solid black;
     border-color: #E51937;
-    border-radius: 4px;
+    border-radius: 2px;
     color: #E51937;
     text-decoration: none;
+    
 }
 
 .nav__end__log {
-font-family: Montserrat;
     font-size: 15px;
     text-decoration: none;
     color: #000000;
 }
 
+.nav_burger {
+    width: 24px;
+    height: 15px;
+    margin-left: 30px;
+    float: right;
+    position: relative;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.nav_burger:after{
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    left: 0;
+    top: 7px;
+    height: 2px;
+    background: red;
+}
+
 /*Навигационное меню*/
 
-.info__head {
-    display: block;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 90px;
-    margin-top: 74px;
-    margin-bottom: 0;
-}
-
-.info__paragraf {
-    display: block;
-    font-family: Montserrat;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 9;
-}
+.info {
+    text-align: center;  
+    margin-top: 57px; 
+  }
 
 .info__img {
-    display: inline-block;
-    margin-left: 17%;
-    margin-right: 15%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }
-/* Загаловок параграфф и машина*/
 
-.info__parameter {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 28%;
-    padding-right: 28%;
-    height: 40px;
+.info__title{
+    font-family: Montserrat;
+    font-size: 90px;
+    margin: 0;
 }
+
+.info__subtitle{
+    font-family: Montserrat;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: auto;
+}
+ 
+  .info_footer{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .info__speed {
+    margin-right: 82px;
+	width: 154px;
+}
+
+.info__speed:before {
+	content: url(../img/Group.png);
+}
+
+.info__road {
+	margin-right: 105px;
+	width: 142px;
+}
+
+.info__road:before {
+	content: url(../img/Road\ icon.png);
+}
+
 
 .info__argument {
     display: flex;
-    padding-right: 10%;
+	flex-direction: column;
+	margin-left: 10px;
 }
 
-.info__argument__number{
-    font-family: Montserrat;
-    font-style: normal;
+.argument__number{
     font-weight: 600;
-    line-height: normal;
-    font-size: 25px;
+	font-size: 35px;
+	line-height: 43px; 
 }
     
-.info__argument__measure {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.argument__measure {
     font-size: 20px;
+    line-height: 24px; 
 }
 
-.info__argument__text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 12px;
-    display: flex;   
+.argument__text {
+	font-size: 12px;
+	line-height: 15px;
 }
 
-.info__botton {
-    position: absolute;
-    padding-left: 26%;
+.argument__test {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-transform: uppercase;
+	margin-right: 35px;
 }
 
-.info__argument__test {
-    padding-right: 50px;
-    padding-left: 0;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 13px;
-    text-align: center;
-    text-transform: uppercase;
+.argument__test:before {
+	content: "";
+	display: block;
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/steering-wheel.png);
+	margin-right: 8px;
 }
 
-.info__argument__button {
+
+.argument__button {
     border: 2px solid red;
     width: 160px;
     height: 40px;
@@ -136,11 +182,21 @@ font-family: Montserrat;
     color: #E51937;
 }
 
-.info__botton_img{
-    position: absolute;
-    bottom: 1ch;
-    left: 450px;
+.info__anhor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 37px;
+    margin-top: 39px;
+
 }
+
+
+.parametr {
+	display: flex;
+    align-items: center;
+}
+
+
 
 /*первая секция*/
 
@@ -162,23 +218,18 @@ font-family: Montserrat;
 }
 
 .section__img{
-    width: 70%;
+    width: 60%;
 }
 
 .section__option {
     background-color: red;
-    width: 30%; 
-    flex-direction: column;
-    
+    width: 40%;   
 }
 
 .option__box { 
     padding-top: 50px;
-    padding-bottom: 70px;
     margin-left: 155px;
     margin-right: 155px;
-    
-    
 }
 
 .option__button{
@@ -203,23 +254,16 @@ font-family: Montserrat;
     color: white;
 }
 .option__box__numbers {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    font-size: 35px;
+	font-size: 35px;
+	line-height: 43px; 
     color: white;
     padding-left: 60px;
 
-    
-    
 }
 .option__box__bigtext {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     font-size: 20px;
+    line-height: 24px; 
     color: white;
     padding-left: 5px;
 
@@ -235,11 +279,8 @@ font-family: Montserrat;
     color: white;
 }
 .option__box__text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
     font-size: 12px;
+	line-height: 15px;
     color: white;
     padding-left: 65px;
     margin-bottom: 20px;
@@ -280,15 +321,129 @@ font-family: Montserrat;
     
 }
 
-/*2 секция*/
+/*2 секция
 
 
 .def {
+    display: flex; 
+}
 
+.def__inform{
+    display: inline-block;
+    background-color: red;
+    width: 40%;  
+ 
+}
+.def__header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+.def__par {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 15px;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+
+.def__rating {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .defens{
-
+    display: inline-block;
+    width: 60%;  
 }
 
 
+.defens__img {
+    position: absolute;
+    left: 30%;
+}
+
+.def__secure__mini {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 25px;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.def__box {
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+    justify-content: space-between;
+    
+}
+
+.def__box_text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+}
+
+.def__box_mini{
+    Font-Family: Montserrat;
+    Font-Style: Bold;
+    Font-Size: 10px;
+    Line-Height: 12px;
+    Opacity: 70%;
+    Fill: Solid;
+    color: #FFFFFF;
+}
+
+
+.def_bott{
+    padding-top: 111px;
+    padding-left: 31%;
+    padding-right: 30%;
+    display: flex;
+    justify-content: space-between;
+}   
+
+
+.def__secure {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 50px;
+    color: white;
+   padding-left: 10px;
+}
+
+.def__bott_img{
+    display: inline-block;
+}
+def__secure__mini
+
+def__about
+def__button
