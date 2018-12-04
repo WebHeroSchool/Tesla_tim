@@ -78,5 +78,97 @@
     .info__anhor{
         padding-top: 34px;  
     }
+
+    .function__parametr3 {
+		margin-bottom: 145px;
+	}
+
+	.function__about {
+    	margin-left: 31px;
+	}
+
+	.function__button {
+		display: block;
+		margin-top: 25px;
+    }
+    
+/*1 подвал*/
+    .section {
+		flex-direction: column;
+	}
+
+	.section__wrap {
+		height: 250px;
+	}
+
+	.section__head {
+		display: none;
+	}
+
+	.section__option {
+		width: 100%;
+		box-sizing: border-box;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.function__description {
+		width: auto;
+	}
+
+	.info__display {
+		display: none;
+	}
+
+	.info__wf {
+		display: none;
+	}
+
+	.info_battery {
+		display: none;
+	}
+
+	.option__text {
+		display: none;
+	}
+
+	.option__btn {
+		display: none;
+	}
+
+	.def {
+		flex-direction: column-reverse;
+	}
+
+	.def__inform {
+		width: 100%;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 0;
+	}
+
+	.defens__img {
+		position: static;
+		width: 80%;
+		margin: auto;
+    	display: block;
+	}
+
+	.def_bott {
+		display: none;
+	}
+
+	.def__about {
+		display: none;
+	}
+
+	.def__rating {
+		display: none;
+	}
+
+	.def__box {
+		display: none;
+	}
+
 }
 

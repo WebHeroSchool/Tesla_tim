@@ -201,127 +201,125 @@ body {
 /*первая секция*/
 
 .section {
-    display: flex;
-    padding-top: 90px;
+	display: flex;
+}
+
+.section__wrap {
+	width: 100%;
+	background-image: url(../img/2013-tesla-model-s-cockpit.png);
+	background-position: bottom;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 }
 
 .section__head {
-    position: absolute;
-    display: inline;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 70px;
-    color: red;
-    padding-left: 70px;
-}
-
-.section__img{
-    width: 60%;
+	font-size: 70px;
+	font-weight: 600;
+	color: #E51937;
+	padding-left: 80px;
 }
 
 .section__option {
-    background-color: red;
-    width: 40%;   
+	background-color: #E51937;
+	width: 560px;
+	padding-left: 50px;
+    padding-top: 51px;
+    color: white;
 }
 
-.option__box { 
-    padding-top: 50px;
-    margin-left: 155px;
-    margin-right: 155px;
+
+.section__paragr {
+	font-size: 30px;
+	font-weight: 600px;
 }
 
-.option__button{
-    padding-bottom: 70px;
-    margin-right: 50px;
-}
-.option__box__paragr {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 30px;
-    color: white;  
-    
-}
-.option__box__description {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-size: 15px;
-    color: white;
-}
-.option__box__numbers {
-    font-weight: 600;
-	font-size: 35px;
-	line-height: 43px; 
-    color: white;
-    padding-left: 60px;
-
-}
-.option__box__bigtext {
-    font-size: 20px;
-    line-height: 24px; 
-    color: white;
-    padding-left: 5px;
-
-}
-.option__box__bigtext-van{
-    display: flex;
-    padding-left: 60px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 20px;
-    color: white;
-}
-.option__box__text {
-    font-size: 12px;
-	line-height: 15px;
-    color: white;
-    padding-left: 65px;
-    margin-bottom: 20px;
-    display: flex   ;
+.section__description {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 18px;
+	width: 341px;
 }
 
-.option__box__img{
-    position: absolute;
-    margin-top: 10px;
+.option__box__van {
+	margin-top: 50px;
 }
-.option__button {
-    margin-right: 50px;
-    margin-left: 50px;
-    text-align: center
+
+.info__display:before {
+	content: "";
+	display: block;
+	width: 36px;
+	height: 53px;
+	background-image: url(../img/screen.png);
+	background-repeat: no-repeat;
+	margin-right: 8px;
+	margin-top: 19px;
 }
-.option__button_text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 13px;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
+
+.info__wf {
+	margin-top: 35px;
 }
-.option__button__btn {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 13px;
-    text-align: center;
-    text-transform: uppercase;
+
+.info__wf:before {
+	content: "";
+	display: block;
+	width: 44px;
+	height: 34px;
+	background-image: url(../img/Groups.png);
+	margin-right: 8px;
+}
+
+.info_battery {
+	margin-top: 27px;
+}
+
+.info_battery:before {
+	content: "";
+	display: block;
+	width: 36px;
+	height: 52px;
+	background-image: url(../img/bag.png);
+	margin-right: 8px;
+	margin-top: 5px;
+}
+
+.option__text {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.option__text:before {
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/gro.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	padding-right: 6px;
+}
+
+.option__text:hover:before {
+	background-image: url(../img/gro.png);
+}
+
+.option__btn {
+	margin-top: 170px;
+	margin-left: 30px;
+    margin-bottom: 63px;
     border: 2px solid white;
     width: 160px;
     height: 40px;
-    margin-left: 70px;
-    
+    font-family: Montserrat;
+    font-weight: bold;  
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #E51937;
 }
 
-/*2 секция
+/*2 секция */
 
 
 .def {
@@ -329,121 +327,136 @@ body {
 }
 
 .def__inform{
-    display: inline-block;
-    background-color: red;
-    width: 40%;  
- 
-}
-.def__header {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 30px;
-    color: white;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 50px;
+	padding-top: 51px;
+	box-sizing: border-box;
+    background-color: #E51937;
+	width: 560px;  
+	color: white;
 }
 
+.defens {
+	width: 100%;
+	position: relative;
+}
+
+.def__header {
+	font-size: 30px;
+}
 
 .def__par {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-size: 15px;
-    color: white;
-    padding-left: 30%;
-    padding-right: 30%;
-    
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 18px;
+	padding-bottom: 40px;
+	padding-right: 35px;
+    box-sizing: border-box;
 }
 
 .def__rating {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 30px;
-    color: white;
-    padding-left: 30%;
-    padding-right: 30%;
-}
-
-.defens{
-    display: inline-block;
-    width: 60%;  
-}
-
-
-.defens__img {
-    position: absolute;
-    left: 30%;
-}
-
-.def__secure__mini {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 25px;
-    color: white;
-    padding-left: 30%;
-    padding-right: 30%;
+	font-size: 30px;
 }
 
 .def__box {
-    display: flex;
-    padding-left: 30%;
-    padding-right: 30%;
-    justify-content: space-between;
-    
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
 }
 
-.def__box_text{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 17px;
-    text-transform: uppercase;
-    color: white;
-    display: inline-block;
+.def__boxs {
+	position: relative;
+	padding-bottom: 18px;
 }
 
-.def__box_mini{
-    Font-Family: Montserrat;
-    Font-Style: Bold;
-    Font-Size: 10px;
-    Line-Height: 12px;
-    Opacity: 70%;
-    Fill: Solid;
-    color: #FFFFFF;
+.def__box_text {
+
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 17px;
 }
 
+.def__box_text:after {
+	content: "";
+	width: 125px;
+	height: 23px;
+	background-image: url(../img/Star.png);
+	position: absolute;
+	left: 158px;
+}
 
-.def_bott{
-    padding-top: 111px;
-    padding-left: 31%;
-    padding-right: 30%;
-    display: flex;
-    justify-content: space-between;
-}   
+.def__box_mini {
+	font-size: 10px;
+	opacity: 0.7;
+}
 
+.def_bott {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding-left: 98px;
+	margin-top: 89px;
+}
+
+.def_bott:before {
+	content: "";
+	display: inline-block;
+	width: 62px;
+	height: 74px;
+	background-image: url(../img/Grou.png);
+	position: absolute;
+	left: 0;
+}
 
 .def__secure {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-size: 50px;
-    color: white;
-   padding-left: 10px;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 48px;
 }
 
-.def__bott_img{
-    display: inline-block;
+.def__secure__mini {
+	font-size: 25px;
 }
-def__secure__mini
 
-def__about
-def__button
+.def__about {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.def__about:before {
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/gro.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	padding-right: 6px;
+}
+
+.def__button {
+	margin-top: 59px;
+	margin-left: 13px;
+	margin-bottom: 63px;
+}
+
+.defens__img {
+	position: absolute;
+	top: 172px;
+    left: -94px;
+    width: 107%;
+}
+
+.footer {
+	position: absolute;
+	bottom: 13px;
+	right: 13px;
+}
+
+.footer__webtext {
+	font-size: 8px;
+	font-weight: bold;
+	color: black;
+	vertical-align: top;
+}
