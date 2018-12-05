@@ -449,19 +449,9 @@ body {
 }
 
 footer {
-	display: flex;
-	justify-content: space-between;
-}
-
-.footer_red{
-	width: 413.53px;
-	height: 22px;
-	background-color: #E51937;
-}
-
-.footer__whs {	
-	text-align: end;
-	margin-bottom: 20px;
+	position: absolute;
+	right: 250px;
+	bottom: -1875px;
 }
 
 .footer__webtext {
