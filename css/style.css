@@ -5,13 +5,13 @@ body {
 	font-family: Montserrat;
 }
 
-.nav {
+.header {
     display: flex;
     justify-content: space-between;
     
 }
 
-.nav__logo{
+.header__logo{
     margin-top: 24px;
     margin-left: 49px;
 }
@@ -21,15 +21,15 @@ body {
     height: auto;
 }
 
-.nav__menu {
+.header__nav {
     margin-top: 40px;
 }
-.nav__end {
+.header__shop {
     margin-top: 40px;
     margin-right: 50px;  
 }
 
-.nav__menu__model {
+.nav__menu {
     font-size: 15px;
     text-decoration: none;
     color: #000000;
@@ -37,7 +37,7 @@ body {
 
 }
 
-.nav__menu__model__red {
+.nav__menu__red {
     border-bottom: 2px solid black;
     border-color: #E51937;
     border-radius: 2px;
@@ -46,23 +46,23 @@ body {
     
 }
 
-.nav__end__log {
+.shop__log {
     font-size: 15px;
     text-decoration: none;
     color: #000000;
 }
 
-.nav_burger {
+.shop__burger {
     width: 24px;
     height: 15px;
-    margin-left: 30px;
-    float: right;
+	margin-left: 30px;
+	display: inline-block;
     position: relative;
     border-top: 2px solid red;
     border-bottom: 2px solid red;
 }
 
-.nav_burger:after{
+.shop__burger:after{
     content: "";
     position: absolute;
     display: block;
@@ -88,13 +88,11 @@ body {
 }
 
 .info__title{
-    font-family: Montserrat;
     font-size: 90px;
     margin: 0;
 }
 
 .info__subtitle{
-    font-family: Montserrat;
     font-size: 15px;
     margin: 0;
     margin-bottom: auto;
@@ -122,7 +120,7 @@ body {
 }
 
 .info__road:before {
-	content: url(../img/Road\ icon.png);
+	content: url(../img/icon.png);
 }
 
 
@@ -172,7 +170,6 @@ body {
     border: 2px solid red;
     width: 160px;
     height: 40px;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
@@ -310,7 +307,6 @@ body {
     border: 2px solid white;
     width: 160px;
     height: 40px;
-    font-family: Montserrat;
     font-weight: bold;  
     font-size: 13px;
     text-align: center;
@@ -369,7 +365,6 @@ body {
 }
 
 .def__box_text {
-
 	font-size: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -450,8 +445,8 @@ body {
 
 footer {
 	position: absolute;
-	right: 255px;
-	bottom: -1870px;
+	right: 254px;
+	bottom: -1863px;
 }
 
 .footer__webtext {
@@ -459,4 +454,13 @@ footer {
 	font-weight: bold;
 	color: black;
 	vertical-align: top;
+}
+
+.defens_title {
+	color: #E51937;
+	font-weight: 600;
+	font-size: 200px;
+	opacity: 0.05;
+	text-align: right;
+	margin-top: 110px;
 }
