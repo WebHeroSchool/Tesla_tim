@@ -443,10 +443,10 @@ body {
     width: 107%;
 }
 
-footer {
+.footer {
 	position: absolute;
-	right: 254px;
-	bottom: -1863px;
+	bottom: 13px;
+	right: 13px;
 }
 
 .footer__webtext {
