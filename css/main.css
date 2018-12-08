@@ -10,8 +10,8 @@
 		margin: auto;
 	}
     
-    .nav__logo {
-        margin-left: 0%;
+    .header__logo {
+        margin-left: 2px;
     }
     
     .nav__end{
@@ -90,7 +90,12 @@
 	.function__button {
 		display: block;
 		margin-top: 25px;
-    }
+	}
+	
+	.header__shop {
+		margin-right: 21px;
+		margin-top: 19px;
+	}
     
 /*1 подвал*/
     .section {
