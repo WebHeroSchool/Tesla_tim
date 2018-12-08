@@ -166,6 +166,7 @@ body {
 }
 
 
+
 .argument__button {
     border: 2px solid red;
     width: 160px;
@@ -465,6 +466,35 @@ body {
 	margin-top: 110px;
 }
 
-a:hover{
- color: blueviolet;
+.argument__button:hover{
+    transition: .3s;
+    background-color: #e51937;
+	color: #ffffff;
+}
+
+.option__btn:hover{
+	transition: .3s;
+    background-color: #ffffff;
+	color: #e51937;
+}
+
+.argument__test:hover:before {
+	background-image: url(../img/steering-wheel_red.png);
+	cursor: pointer;
+
+}
+
+.argument__test:hover{
+	color: #E51937;
+}
+
+.option__text:hover:before {
+	background-image: url(../img/info-hover.png);
+	cursor: pointer;
+
+}
+
+.def__about:hover:before {
+	background-image: url(../img/info-hover.png);
+	cursor: pointer;
 }
