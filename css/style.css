@@ -25,6 +25,8 @@ body {
     margin-top: 40px;
 }
 .header__shop {
+	display: flex;
+	align-items: center;
     margin-top: 40px;
     margin-right: 50px;  
 }
@@ -47,7 +49,8 @@ body {
 }
 
 .shop__log {
-    font-size: 15px;
+	font-size: 15px;
+	padding-left: 30px;
     text-decoration: none;
     color: #000000;
 }
@@ -470,12 +473,14 @@ body {
     transition: .3s;
     background-color: #e51937;
 	color: #ffffff;
+	cursor: pointer;
 }
 
 .option__btn:hover{
 	transition: .3s;
     background-color: #ffffff;
 	color: #e51937;
+	cursor: pointer;
 }
 
 .argument__test:hover:before {
@@ -486,6 +491,7 @@ body {
 
 .argument__test:hover{
 	color: #E51937;
+	cursor: pointer;
 }
 
 .option__text:hover:before {
@@ -496,5 +502,11 @@ body {
 
 .def__about:hover:before {
 	background-image: url(../img/info-hover.png);
+	cursor: pointer;
+}
+
+.nav__menu:hover{
+    color: #e51937;
+	transition: .3s;
 	cursor: pointer;
 }
