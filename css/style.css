@@ -335,10 +335,7 @@ body {
 	color: white;
 }
 
-.defens {
-	width: 100%;
-	position: relative;
-}
+
 
 .def__header {
 	font-size: 30px;
@@ -440,13 +437,6 @@ body {
 	margin-bottom: 63px;
 }
 
-.defens__img {
-	position: absolute;
-	top: 172px;
-    left: -94px;
-    width: 107%;
-}
-
 .footer {
 	position: absolute;
 	bottom: 13px;
@@ -458,15 +448,6 @@ body {
 	font-weight: bold;
 	color: black;
 	vertical-align: top;
-}
-
-.defens_title {
-	color: #E51937;
-	font-weight: 600;
-	font-size: 200px;
-	opacity: 0.05;
-	text-align: right;
-	margin-top: 110px;
 }
 
 .argument__button:hover{
@@ -509,4 +490,27 @@ body {
     color: #e51937;
 	transition: .3s;
 	cursor: pointer;
+}
+
+.defens {
+	width: 100%;
+	position: relative;
+}
+
+
+.defens__img {
+	position: absolute;
+	top: 172px;
+    left: -94px;
+    width: 107%;
+}
+
+.defens__title {
+		color: #E51937;
+		font-weight: 600;
+		font-size: 200px;
+		opacity: 0.1;
+		text-align: right;
+		margin-top: 97px;
+	
 }
