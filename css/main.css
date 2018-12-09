@@ -42,9 +42,10 @@
 	}
 
     .info_footer{
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
+	  margin-top: 18px;
+	  margin-left: 36px;
+	  margin-right: 36px;
+	}
 
     .argument__number{
         font-size: 27px;
