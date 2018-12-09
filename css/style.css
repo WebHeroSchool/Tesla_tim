@@ -9,13 +9,14 @@ body {
     display: flex;
     justify-content: space-between;
 	align-items: center;
+	margin-left: 49px;
+	margin-right: 50px;
+	margin-top: 24px;
 }
 
 .header__logo{
 	display: flex;
 	align-items: center;
-    margin-top: 24px;
-    margin-left: 49px;
 }
 
 .logo__tesla{
@@ -23,14 +24,10 @@ body {
     height: auto;
 }
 
-.header__nav {
-    margin-top: 40px;
 }
 .header__shop {
 	display: flex;
-	align-items: center;
-    margin-top: 40px;
-    margin-right: 50px;  
+	align-items: center; 
 }
 
 .nav__menu {
