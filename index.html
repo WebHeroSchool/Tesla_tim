@@ -10,21 +10,21 @@
     <title>Tesla</title>
 </head>
 <body>
-    <header class="nav">
-        <div class="nav__logo">
+    <header class="header">
+        <div class="header__logo">
             <img class="logo__tesla" src="img/Tesla.png" alt="logo">
         </div>
-            <div class="nav__menu">
-                <a class="nav__menu__model__red" href="#">Model S</a>
-                <a class="nav__menu__model" href="#">Model X</a>
-                <a class="nav__menu__model" href="#">Model 3</a>
-                <a class="nav__menu__model" href="#">Roadster</a>
-                <a class="nav__menu__model" href="#">Energy</a>
-            </div>
-            <div class="nav__end">
-                <a class="nav__end__log" href="#">Магазин</a>
-                <a class="nav__end__log" href="#">Войти</a>
-                <a class="nav_burger"></a>    
+            <nav class="header__nav">
+                <a class="nav__menu__red" href="#">Model S</a>
+                <a class="nav__menu" href="#">Model X</a>
+                <a class="nav__menu" href="#">Model 3</a>
+                <a class="nav__menu" href="#">Roadster</a>
+                <a class="nav__menu" href="#">Energy</a>
+            </nav>
+            <div class="header__shop">
+                <a class="shop__log" href="#">Магазин</a>
+                <a class="shop__log" href="#">Войти</a>
+                <a class="shop__burger"></a>    
             </div>
     </header>
 
@@ -58,35 +58,39 @@
 
 <!--1й подвал-->
 
-        <section class="section">
-            <h2 class="section__head" >Model S</h2>
-            <img src="img/2013-tesla-model-s-cockpit.png" alt="inner skin">
-            <div class="section__option">  
-                <div class="option__box">
-                    <span class="option__box__paragr">Будущее вождения</span>
-                    <p class="option__box__description">Модель S обладает лучшей в своем классе вместимостью: в машине поместится
-                            до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным
-                                экраном. Усовершенствованная шумовая инженерия создает динамику звука,
-                                сравнимую с студией звукозаписи, а стеклянная крыша обеспечивает
-                                просторный интерьер для каждого пассажира.</p>
-                </div>
-                <div class="option__box">
-                    <span class="option__box__numbers">17<span class="option__box__bigtext">дюймов</span></span>    
-                    <span class="option__box__text" >Большой дисплей</span> 
-                </div>
-                <div class="option__box">
-                    <span class="option__box__bigtext-van">Беспроводное обновление ПО</span>
-                    <span class="option__box__text" >Повышенная функциональность</span>
-                </div>
-                <div class="option__box">
-                    <span class="option__box__numbers">894<span class="option__box__bigtext">литра</span></span>    
-                    <span class="option__box__text">Объем грузового пространства</span>
-                </div>
-                <span class="option__button_text">УЗНАТЬ БОЛЬШЕ</span>
-                <button class="option__button__btn">Заказать</button> 
-            </div>
-        </section>
-
+<section class="section">
+    <div class="section__wrap">
+        <h2 class="section__head" >Model S</h2>
+    </div>
+    <div class="section__option">  
+        <span class="section__paragr">Будущее вождения</span>
+        <p class="section__description">Модель S обладает лучшей в своем классе вместимостью: в машине поместится
+                    до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным
+                        экраном. Усовершенствованная шумовая инженерия создает динамику звука,
+                        сравнимую с студией звукозаписи, а стеклянная крыша обеспечивает
+                        просторный интерьер для каждого пассажира.</p>
+        <div class="info__display parametr option__box__van">
+            <span class="info__argument">
+                <span class="argument__number">17<span class="argument__measure">дюймов</span></span>    
+                <span class="argument__text" >Большой дисплей</span> 
+            </span>
+        </div>
+        <div class="info__wf parametr option__box">
+            <span class="info__argument">
+                <span class="info__argument__po">Беспроводное <br> обновление ПО</span>
+                <span class="argument__text" >Повышенная <br> функциональность</span>
+            </span>
+        </div>
+        <div class="info_battery parametr option__box">
+            <span class="info__argument">
+                <span class="argument__number">894<span class="argument__measure">литра</span></span>    
+                <span class="argument__text">Объем грузового пространства</span>
+            </span>
+        </div>
+        <span class="option__text">УЗНАТЬ БОЛЬШЕ</span>
+        <button class="option__btn">Заказать</button> 
+    </div>
+</section>
 
 <!-- 2й подвал-->
 
@@ -97,43 +101,30 @@
                     рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем
                     сидении и в ДТП с переворотом авто.</p>
                 <span class="def__rating">Оценка защиты:</span>
-                <div class="def__stars">
                     <div class="def__box">
-                        <span class="def__box_text ">спереди</span>
-                    </div>
-                    <div class="def__box">
-                        <span class="def__box_text">сбоку</span>
-                    </div>
-                    <div class="def__box">
-                        <span class="def__box_text">сбоку <sub class="def__box_mini">(стойка)</sub></span>
-                    </div>
-                    <div class="def__box">
-                        <span class="def__box_text">водитель</span>
-                    </div> 
-                   <div class="def__box">
-                        <span class="def__box_text">пассажир</span>
+                        <span class="def__boxs"><span class="def__box_text ">спереди</span></span>
+                        <span class="def__boxs"><span class="def__box_text">сбоку</span></span>
+                        <span class="def__boxs"><span class="def__box_text">сбоку <sub class="def__box_mini">(стойка)</sub></span></span>
+                        <span class="def__boxs"><span class="def__box_text">водитель</span></span>
+                        <span class="def__boxs"><span class="def__box_text">пассажир</span></span>
                    </div> 
-                </div>
-                <div class="def_bott">
-                    <div class="def__bott_img">
-                        <img src="img/Vector.png" alt="">
-                    </div>
-                    <span class="def__secure">5 звезд <span class="def__secure__mini">безопасности</span></span>
-                </div>
+                <span class="def_bott">
+                    <span class="def__secure">5 звезд </span>
+                    <span class="def__secure__mini">безопасности</span>
+                </span>
                 <span class="def__about">Узнать больше</span>
-                <button class="def__button">Заказать</button>  
+                <button class="def__button option__btn">Заказать</button>  
             </div>
             <div class="defens">
-                <img class="defens__img" src="img/Car frame.png">
-                <span class="defens__arrow">Защита от удара спереди</span> 
-                <span class="defens__arrow">Защита от удара сбоку</span> 
-                <span class="defens__arrow">Минимальный риск перевернуться в аварии</span>   
+                    <h3 class="defens__title">Model S</h3>
+                    <img class="defens__img" src="./img/car-frame-group.png" alt="">
+                <footer class="footer">
+                            <span class="footer__webtext">разработано в</span>
+                            <img class="footer__weblogo" src="img/web.png">
+                    </footer>
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <span class="footer__webtext">разработано в</span>
-        <img class="footer__weblogo" src="img/web.png">
-  </footer>
+   
 </body>
 </html>
